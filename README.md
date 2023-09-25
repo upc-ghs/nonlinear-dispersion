@@ -8,10 +8,14 @@ Install project requirements with the instruction
 pip install -r requirements.txt
 ```
 
-The file ```src/config.py``` contains some global configurations pointing to the folder where the libraries of the MODFLOW-API is located and the output folder for simulations.
+The file ```src/config.py``` contains some global configurations indicating the folder where the libraries of the MODFLOW-API are located and the output folder for simulations.
+
+**Note**: the Linux and Windows libraries are also included locally in the ```lib``` folder. Remember to select the appropiate for your operating system before running models. Libraries can also be downloaded [here](https://github.com/MODFLOW-USGS/executables)
 
 ### Run 
-The folder ```src``` stores self-contained routines for configuring and running models. All routines write the simulation data to the folder ```sims``` (defined in ```config.py```), which is not tracked by the versioning system. Routines include a set of simple arguments for controlling the execution. For example, the following example will write and run the routine ```flopymf6fujita.py```:
+The folder ```src``` stores self-contained routines for configuring and running models. All routines write the simulation data to the folder ```sims``` (defined in ```config.py```), which is not tracked by the versioning system. 
+
+Routines include a set of simple arguments for controlling the execution. For example, the following example will write and run the routine ```flopymf6fujita.py```:
 
 ```
 python flopymf6fujita.py --write --run --force
