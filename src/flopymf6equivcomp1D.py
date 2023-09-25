@@ -311,8 +311,7 @@ if write_simulation:
 # init modflow-api 
 libdir = config.FOLDERS['lib']
 mf6    = xmipy.XmiWrapper(
-        os.path.join( libdir, 'libmf6.so' ),  # linux 
-        #os.path.join( libdir, 'libmf6.dll' ), # wos
+        os.path.join( libdir, config.LIBFILE ),
         working_directory = sim_ws
     )
 
