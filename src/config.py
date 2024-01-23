@@ -1,5 +1,5 @@
 '''
-General configurations for models 
+General configuration for running models 
 '''
 
 import os 
