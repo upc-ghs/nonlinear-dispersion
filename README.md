@@ -21,6 +21,13 @@ Routines include a set of simple arguments for controlling the execution. For ex
 python flopymf6fujita.py --write --run --force
 ```
 
+## License
+MIT License
+
+## References
+[Pérez-Illanes R., Saaltink M. W., Fernàndez-Garcia, D., 2024, Nonlinear Formulation of Multicomponent Reactive Transport With Species-Specific Dispersion Properties, Water Resources Research, doi:10.1029/2023WR036358](https://doi.org/10.1029/2023WR036358)
+
+
 ## Resources
 - [MODFLOW-API](https://www.usgs.gov/publications/modflow-application-programming-interface-simulationcontrol-and-software) 
 
